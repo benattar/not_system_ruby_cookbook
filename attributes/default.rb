@@ -34,8 +34,8 @@ when "centos", "redhat", "suse", "scientific", "amazon"
   }
 when "ubuntu"
   default[:system_ruby][:packages] = {
-    "ruby1.9.1"     => "1.9.2.290-2",
-    "ruby1.9.1-dev" => "1.9.2.290-2"
+    "ruby1.9.1"     => "",
+    "ruby1.9.1-dev" => ""
   }
 when "debian"
   default[:system_ruby][:packages] = {
